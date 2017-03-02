@@ -1,0 +1,85 @@
+body{
+	background-color: grey;
+
+}
+header{
+	background-color:pink;
+	text-align: center;
+	color: blue;
+	box-shadow: 3px 4px 5px white;
+	text-shadow: 4px 4px 6px black;
+	border-radius: 10px 10px;
+}
+section{
+	background-color: white;
+	display: flex;
+	flex-direction: row;justify-content: space-around;
+	height: 200px;
+	font-size: 30px;
+	text-shadow: 3px 4px 5px ;
+	box-shadow: 4px 6px 5px black;
+}
+.home{
+	width: 20%;
+	padding-top: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	color: pink;
+	background-color: orange;
+	text-align: center;
+	border-radius: 10px 8px 10px 8px;
+}
+.home a{
+	text-decoration: none;
+}
+.mycv{
+	width: 20%;
+	padding-top: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	color: pink;
+	background-color: orange;
+	text-align: center;
+	border-radius: 10px 8px 10px 8px;
+}	
+.mycv a{
+	text-decoration: none;
+}
+.mybio{
+	width: 20%;
+	padding-top: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	color: pink;
+	background-color: orange;
+	text-align: center;
+	border-radius: 10px 8px 10px 8px;
+}
+.mybio a{
+	text-decoration: none;
+}
+.contact{
+	width: 20%;
+	padding-top: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	color:pink;
+	background-color: orange;
+	text-align: center;
+	border-radius: 10px 8px 10px 8px;
+	
+}
+.contact a{
+	text-decoration: none;
+}
+
+footer{
+	
+	background-color: pink;
+	height: 200px;
+
+}
