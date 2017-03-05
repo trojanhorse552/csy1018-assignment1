@@ -1,0 +1,36 @@
+body{
+	background-color: black;
+}
+header{
+	background-color: grey;
+	height: 50px;
+	margin-bottom: 2%;
+	color: red;
+	text-align: center;
+	text-shadow: 3px 4px white;
+	border: 2px 2px white;
+	border-radius: 5px 5px;
+}
+section{
+	background-color: white;
+	color: red;
+	display: flex;
+	flex-flow: row;
+	margin-top: 1%;
+}
+.img{
+	width: 26%;
+	height: 400px;
+	background-image: url("my.jpg");
+	background-image: cover;
+	background-repeat: no-repeat;
+	margin-right: 4%;
+	border:5px red;
+	border-radius: 40px 40px 15px green;
+
+}
+.detail{
+	width: 70%;
+	background-color: pink;
+	text-align: center;
+}
