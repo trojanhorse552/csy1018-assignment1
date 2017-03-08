@@ -1,11 +1,10 @@
 body{
-	background-color: red;
+	background-color: blue;
 }
 header{
-	background-color: pink;
+	background-color:white;
 	display: flex;
 	flex-direction: row;
-	text-shadow: 3px 3px 5px red;
 	flex-flow: row wrap;justify-content: space-between;
 }
 .home{
@@ -25,10 +24,10 @@ header{
 .mycv{
 	width: 20%;
 	padding-top: 1%;
-	padding-bottom: 1%;
 	margin-top: 1%;
 	margin-left: 1%;
 	margin-bottom: 1%;
+	padding-top: 1%;
 	color: pink;
 	background-color: orange;
 	text-align: center;
@@ -66,33 +65,51 @@ header{
 	
 }
 .contact a{
-	text-decoration: none;
+	text-decoration:none;
 }
 section{
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;justify-content: space-around;
+
+}
+.cv{
+	width: 80%;
+	background-color: black;
+	text-align: center;
+	font-size: 40px;
+	color: green;
+	padding-top: 2%;
+	text-shadow: 4px 4px 9px white;
+	border-radius: 25px 25px;
+}
+.pic{
+	width: 14%;
 	background-color: white;
+	margin-top: 0.5%;
+	padding-left: 6%;
+	border-radius: 20px 20px;
+}
+.education{
+	width: 100%;
+}
+footer{
+	background-color: violet;justify-content: space-between;
 	display: flex;
 	flex-direction: row;
 	flex-flow: row wrap;
+	border-radius: 6px 8px;
 }
-.name{
-	width: 50%;
-	color: blue;
-	text-align: left;
-	text-align: left;
-	padding-left: 3%;
-	font-size: 40px;
-	text-shadow: 3px 3px 5px red;
-	margin-right: 3%;
-}
-.connect{
-	width: 100%;
-	background-color: black;
-	color: orange;
-	font-size: 20px;
+.info{
+	width: 95%;
+	height: 200px;
 	margin-left: 1%;
-	margin-right: 1%;
+	margin-top: 2%;
 	margin-bottom: 2%;
-}
-footer{
-	background-color: white;
+	padding-left: 3%;
+	background-color: grey;
+	color: blue;
+	border: 4px red;
+	border-radius: 20px 20px;
 }
