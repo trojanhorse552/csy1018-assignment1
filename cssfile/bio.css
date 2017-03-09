@@ -24,6 +24,7 @@ section{
 .home{
 	width: 20%;
 	margin-top: 1%;
+	padding-bottom: 1%;
 	margin-left: 1%;
 	margin-bottom: 1%;
 	padding-top: 1%;
@@ -55,10 +56,10 @@ section{
 .mybio{
 	width: 20%;
 	padding-top: 1%;
+	padding-bottom: 1%;
 	margin-top: 1%;
 	margin-left: 1%;
 	margin-bottom: 1%;
-	padding-top: 1%;
 	color: pink;
 	background-color: orange;
 	text-align: center;
@@ -70,8 +71,8 @@ section{
 }
 .contact{
 	width: 20%;
-	padding-top: 1%;
 	margin-top: 1%;
+	padding-bottom: 1%;
 	margin-right: 1%;
 	margin-bottom: 1%;
 	padding-top: 1%;
@@ -106,17 +107,29 @@ footer{
 	border-radius: 6px 8px;
 }
 .info{
-	width: 95%;
-	text-align: left;
+	width: 40%;
+	margin-left: 1%;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	padding-left: 2%;
-	padding-bottom: 2%;
+	padding-left: 3%;
 	background-color: grey;
 	color: blue;
-	border: 4px red;
+	border: 4px ;
 	border-radius: 20px 20px;
 }
+.social_site{
+	width:43%;
+	background-color: black;
+	color: red;
+	border: 4px red;
+	border-radius: 30px 30px;
+	padding-left: 10%;
+	padding-bottom: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right: 1%;
+}
+
 
 @media (max-width: 400px){
 section{
