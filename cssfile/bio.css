@@ -19,7 +19,7 @@ section{
 	flex-flow: row wrap;
 	margin-top: 1%;
 	border: 3px red;
-	border-radius: 6px 6px 5px;justify-content: space-around;
+	border-radius: 6px 6px 5px;justify-content: space-around;/*it is use to distribute item in line with equal gap around them*/
 }
 .home{
 	width: 20%;
@@ -35,7 +35,10 @@ section{
 	text-shadow: 3px 3px  4px grey;
 }
 .home a{
-	text-decoration: none;
+	text-decoration: none;/*it is use to remove underline*/
+}
+.home a:hover{
+	background-color: white;
 }
 .mycv{
 	width: 20%;
@@ -53,6 +56,9 @@ section{
 .mycv a{
 	text-decoration: none;
 }
+.mycv a:hover{
+	background-color: white;
+}
 .mybio{
 	width: 20%;
 	padding-top: 1%;
@@ -68,6 +74,9 @@ section{
 }
 .mybio a{
 	text-decoration: none;
+}
+.mybio a:hover{
+	background-color: white;
 }
 .contact{
 	width: 20%;
@@ -85,6 +94,9 @@ section{
 .contact a{
 	text-decoration: none;
 }
+.contact a:hover{
+	background-color: white;
+}
 .detail{
 	width: 70%;
 	height: 350px;
@@ -93,8 +105,8 @@ section{
 	margin-bottom: 1%;
 	padding-top: 1%;
 	padding-left: 1%;
-	background-color: white;
-	color: brown;
+	background-color: black;
+	color: pink;
 	border: 5px 5px ;
 	border-radius: 20px 20px ;
 	box-shadow: 3px 3px orange;
@@ -129,8 +141,7 @@ footer{
 	margin-bottom: 2%;
 	margin-right: 1%;
 }
-
-
+/*it is use to make webpage responsive*/
 @media (max-width: 400px){
 section{
 	flex-direction: column;

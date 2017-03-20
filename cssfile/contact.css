@@ -1,5 +1,5 @@
 body{
-	background-color: red;
+	background-color: white;
 }
 header{
 	background-color: pink;
@@ -11,6 +11,7 @@ header{
 .home{
 	width: 20%;
 	margin-top: 1%;
+	padding-bottom: 1%;
 	margin-left: 1%;
 	margin-bottom: 1%;
 	padding-top: 1%;
@@ -18,9 +19,13 @@ header{
 	background-color: orange;
 	text-align: center;
 	border-radius: 10px 8px 10px 8px;
+	text-shadow: 3px 3px  4px grey;
 }
 .home a{
-	text-decoration: none;
+	text-decoration: none;/*it is use to remove underline*/
+}
+.home a:hover{
+	background-color: white;
 }
 .mycv{
 	width: 20%;
@@ -33,29 +38,37 @@ header{
 	background-color: orange;
 	text-align: center;
 	border-radius: 10px 8px 10px 8px;
+	text-shadow: 3px 3px  4px grey;
 }	
 .mycv a{
 	text-decoration: none;
 }
+.mycv a:hover{
+	background-color: white;
+}
 .mybio{
 	width: 20%;
 	padding-top: 1%;
+	padding-bottom: 1%;
 	margin-top: 1%;
 	margin-left: 1%;
 	margin-bottom: 1%;
-	padding-top: 1%;
 	color: pink;
 	background-color: orange;
 	text-align: center;
 	border-radius: 10px 8px 10px 8px;
+	text-shadow: 3px 3px  4px grey;
 }
 .mybio a{
 	text-decoration: none;
 }
+.mybio a:hover{
+	background-color: white;
+}
 .contact{
 	width: 20%;
-	padding-top: 1%;
 	margin-top: 1%;
+	padding-bottom: 1%;
 	margin-right: 1%;
 	margin-bottom: 1%;
 	padding-top: 1%;
@@ -63,13 +76,16 @@ header{
 	background-color: orange;
 	text-align: center;
 	border-radius: 10px 8px 10px 8px;
-	
+	text-shadow: 3px 3px  4px grey;
 }
 .contact a{
 	text-decoration: none;
 }
-section{
+.contact a:hover{
 	background-color: white;
+}
+section{
+	background-color: grey;
 	display: flex;
 	flex-direction: row;
 	flex-flow: row wrap;
@@ -77,31 +93,44 @@ section{
 .name{
 	width: 80%;
 	color: blue;
+	background-color: black;
 	text-align: left;
 	text-align: left;
 	padding-left: 3%;
 	font-size: 40px;
 	text-shadow: 3px 3px 5px red;
 	margin-right: 3%;
+	border: 2px ;
+	border-radius: 15px 15px;
 }
 .pic{
 	margin-top: 1%;
+	background-color: white;
 }
 .connect{
-	width: 100%;
-	background-color: black;
+	width: 40%;
+	background-color: indigo;
 	color: orange;
 	font-size: 20px;
-	margin-left: 1%;
+	margin-left: 3%;
 	margin-right: 1%;
+	margin-top: 1%;
 	margin-bottom: 2%;
+	padding-left: 5%;
+	padding-bottom: 2%;
+	border: 4px;
+	border-radius: 20px 20px;
+}
+.placeholder{
+	border: 5px;
+	border-radius: 4px 4px solid red;
 }
 footer{
-	background-color: violet;justify-content: space-between;
+	background-color: violet;
 	display: flex;
 	flex-direction: row;
 	flex-flow: row wrap;
-	border-radius: 6px 8px;
+	justify-content: space-between;/*it is use to distribute item in line with first item on start and last on end*/
 }
 .info{
 	width: 40%;
@@ -126,10 +155,12 @@ footer{
 	margin-bottom: 2%;
 	margin-right: 1%;
 }
-
+/*it is use to make webpage responsive*/
 @media (max-width: 400px){
 section{
+	display: flex;
 	flex-direction: column;
+	flex-flow: row wrap;
 }
 footer{
 	display: flex;
@@ -139,7 +170,10 @@ footer{
 .mybio{width: 100%;}
 .mycv{width: 100%;}
 .contact{width: 100%;}
-.image{width: 100%;}
 .name{width: 100%;}
+.image{width: 100%;}
 .connect{width: 100%;}
+.info{width: 100%;}
+.list{width: 100%;}
+.form{width: 100%;}
 }
