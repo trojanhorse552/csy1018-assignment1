@@ -150,6 +150,7 @@ footer{
 	display: flex;
 	flex-direction: column;
 }
+/*CSS for mobile view*/
 .home{width: 100%;}
 .mybio{width: 100%;}
 .mycv{width: 100%;}

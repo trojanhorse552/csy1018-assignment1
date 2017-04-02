@@ -108,7 +108,7 @@ section{
 	background-color: white;
 }
 .connect{
-	width: 40%;
+	width: 60%;
 	background-color: indigo;
 	color: orange;
 	font-size: 20px;
@@ -123,7 +123,7 @@ section{
 }
 .placeholder{
 	border: 5px;
-	border-radius: 4px 4px solid red;
+	
 }
 footer{
 	background-color: violet;

@@ -24,7 +24,7 @@ header{
 	text-decoration: none;/*it is use to remove underline*/
 }
 .home a:hover{
-	background-color: white;
+	background-color: white;/*on hovering color changes to white color*/
 }
 .mycv{
 	width: 20%;
@@ -182,6 +182,7 @@ footer{
 	display: flex;
 	flex-direction: column;
 }
+/*CSS for mobile view*/
 .home{width: 100%;}
 .mybio{width: 100%;}
 .mycv{width: 100%;}

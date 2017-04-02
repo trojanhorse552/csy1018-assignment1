@@ -42,7 +42,7 @@ section{
 	text-decoration: none;/*it is use to remove underline*/
 }
 .home a:hover {
-	background-color: white;
+	background-color: white;/*color changes to white while hovering*/
 }
 .mycv{
 	width: 20%;
@@ -131,7 +131,7 @@ section{
     animation-iteration-count: infinite;
 }
 
-@keyframes run {
+@keyframes run {/*used to provide parameters to the animation */
     0%   {background-color: red; left:0px;}
     50%  {background-color: yellow; left:200px;}
     100% {background-color: red; left:0px;}
@@ -178,6 +178,7 @@ footer{
 	display: flex;
 	flex-direction: column;
 }
+/* CSS for  mobile view*/
 .home{width: 100%;}
 .mybio{width: 100%;}
 .mycv{width: 100%;}
